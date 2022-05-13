@@ -3,17 +3,17 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 
-import { Main } from '@/components/Page/main'
+import { AboutMain } from '@/components/Page/AboutMain'
 import { Navbar } from '@/components/Navbar'
 
-const Home: NextPage = () => {
+const About: NextPage = () => {
   return (
     <div>
-      <Header title="Vezalan Ana Sayfa" /> 
+      <Header title="Vezalan About" /> 
 
-      <Main />
+      <AboutMain />
     </div>
   )
 }
 
-export default Home
+export default About

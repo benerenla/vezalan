@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  @apply bg-black;
+  font-family: 'Poppins', sans-serif;
+}
+img {
+  max-width: none;
+}
+::-webkit-scrollbar {
+  @apply w-3 bg-black;
+}
+::-webkit-scrollbar-thumb {
+  @apply rounded-md bg-neutral-900 transition-all hover:bg-neutral-800;
+}

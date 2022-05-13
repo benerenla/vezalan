@@ -4,7 +4,11 @@ module.exports = {
     './components/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        bgDiscord: '#5865F2',
+      },
+    },
   },
   plugins: [],
 }

@@ -3,17 +3,17 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 
-import { Main } from '@/components/Page/main'
+import { ProjectMain } from '@/components/Page/ProjectMain'
 import { Navbar } from '@/components/Navbar'
 
-const Home: NextPage = () => {
+const Project: NextPage = () => {
   return (
     <div>
       <Header title="Vezalan Ana Sayfa" /> 
 
-      <Main />
+      <ProjectMain />
     </div>
   )
 }
 
-export default Home
+export default Project;
